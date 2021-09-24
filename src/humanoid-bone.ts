@@ -69,13 +69,13 @@ export class HumanoidBone {
      * 胸
      */
     public get chest() {
-        return this.getMandatoryBone('chest');
+        return this.getOptionalBone('chest');
     }
     /**
      * 首
      */
     public get neck() {
-        return this.getMandatoryBone('neck');
+        return this.getOptionalBone('neck');
     }
     /**
      * 頭
